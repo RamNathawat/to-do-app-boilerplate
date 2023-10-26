@@ -9,11 +9,13 @@
 body {
   font-family: "Poppins", sans-serif;
   text-align: center;
+
 }
 
 h1 {
   margin: 50px;
   font-size: 48px;
+
 }
 
 img {
@@ -35,6 +37,7 @@ img {
 .form input {
   width: 400px;
   border: 2px solid lightgray;
+
 }
 
 .form button {
@@ -58,10 +61,29 @@ img {
   padding: 20px;
   box-shadow: -1px -1px 5px 0px gray;
   border-bottom: 5px solid #7055d3;
+
 }
 
 #todolist li a {
   float: right;
   font-size: 16px;
   cursor: pointer;
+
+}
+
+#btn {
+  border: 0px;  
+  cursor: pointer;
+  position: relative;
+  background-color: white;
+  color: black;
+  font-weight: 900;
+}
+
+.remove-btn {
+  left: 150px; 
+}
+
+.edit-btn {
+  right: 150px; 
 }
